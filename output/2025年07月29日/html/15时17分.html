@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-07-29 15:17:35</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">4</td>
+                    <td class="percentage">8.89%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044580" target="_blank" class="news-link">A股异动丨豪悦护理跌3.43% 希望众创完成减持107万股公司股份</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044578" target="_blank" class="news-link">研报掘金｜华泰证券：维持老铺黄金“买入”评级 继续看好其竞争优势及高成长势头</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044576" target="_blank" class="news-link">A股异动丨神马股份跌3.18% 股价创逾一个月新低</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044569" target="_blank" class="news-link">大行评级｜美银：下调老铺黄金目标价至958港元 市场关注盈利增长可持续性</a> [12] <font color='grey'>- 15时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044571" target="_blank" class="news-link">大行评级｜招银国际：上调瑞声科技目标价至63.54港元 预期上半年净利润按年增长66%</a> [10] <font color='grey'>- 15时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044568" target="_blank" class="news-link">A股异动丨中简科技跌3.38% 股价创逾一个月新低</a> [13] <font color='grey'>- 15时17分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5044566" target="_blank" class="news-link">研报掘金丨华鑫证券：首予华工科技“买入”评级，后续盈利能力有望进一步提升</a> [15] <font color='grey'>- 15时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3577291_100_1" target="_blank" class="news-link">【行情】欧洲斯托克600指数上涨0.18%。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 15时17分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3577290_100_1" target="_blank" class="news-link">日本中部电力公司官员：4-6月当季日本中部地区的电力需求与去年同期持平，美国关税的影响预计可忽略不计。</a> [6 - 26] <font color='grey'>- 15时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7531802478196850724" target="_blank" class="news-link">基于 Claude Code 与 BrowserCat MCP 的浏览器自动化全链路构建实践</a> [6] <font color='grey'>- 15时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3577259_0_1" target="_blank" class="news-link">中国大豆需求预计因库存高企和饲料需求减少而下降</a> [13] <font color='grey'>- 15时17分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44719413" target="_blank" class="news-link">Pony: An actor-model, capabilities-secure, high-performance programming language</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时17分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
