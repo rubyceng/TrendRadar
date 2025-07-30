@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 75</p><p>生成时间: 2025-07-30 12:25:50</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">5</td>
+                    <td class="percentage">6.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5045706" target="_blank" class="news-link">ETF午评 | 创新药板块继续上攻，港股通创新药ETF溢价上涨6%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5045705" target="_blank" class="news-link">A股异动 | 神力股份跌停 终止筹划控制权变更</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5045704" target="_blank" class="news-link">A股午评：沪指涨0.52%，超2000股上涨！影视院线板块全线上涨</a> [6] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3579712_100_1" target="_blank" class="news-link">汇丰银行：集团已做好充分准备，以应对经济预测和金融市场波动带来的影响。</a> [13] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3579693_101_1" target="_blank" class="news-link">统计：贝莱德ETF上周斥资超12亿美元购买ETH，超比特币购买额度的四倍</a> [20] <font color='grey'>- 12时25分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">4</td>
+                    <td class="percentage">5.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202507/3048321.html" target="_blank" class="news-link">俄国8.7级强震日本发海啸预警 中领馆提醒做好避难准备</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202507/3048320.html" target="_blank" class="news-link">台湾市场传出美国对台税率落在22%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3579730_0_1" target="_blank" class="news-link">美国经济预计在2024年第二季度反弹，突破30万亿美元</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2100442" target="_blank" class="news-link">堪察加半岛附近突发70年多来最强地震！美国、日本多地已发布海啸预警</a> [13] <font color='grey'>- 12时25分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">3</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202507/3048324.html" target="_blank" class="news-link">台湾推“识读中国威胁”教材 国台办批数典忘祖</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3579725_100_1" target="_blank" class="news-link">花旗维持中国宏桥行业首选评级，目标价上调至25.2港元。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202507/3048319.html" target="_blank" class="news-link">中国豆油供应过剩低价外销 印度罕见采购15万吨创纪录</a> [6] <font color='grey'>- 12时25分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1148704" target="_blank" class="news-link">AI 编程第三方增强真的有用吗， claude code 使用感悟</a> [7] <font color='grey'>- 12时25分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1148714" target="_blank" class="news-link">各位大佬们，不知道你们使用 AI 的时候，会不会遇到这样的问题</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时25分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5045708" target="_blank" class="news-link">港股午评：科指跌1.57%录得5连跌，汽车股、半导体股跌幅明显，三桶油拉升</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时25分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
