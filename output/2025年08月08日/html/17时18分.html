@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 48</p><p>生成时间: 2025-08-08 17:18:40</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">5</td>
+                    <td class="percentage">10.42%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053136" target="_blank" class="news-link">中国科创产业投资(00339.HK)拟8月28日举行董事会会议以审批中期业绩</a> [9] <font color='grey'>- 17时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3603340_100_1" target="_blank" class="news-link">中国台湾地区财政政策主管机关：8月出口年增率预估为17-22%。</a> [16] <font color='grey'>- 17时18分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E6%97%A5%E6%9C%AC%E7%99%8C%E7%97%87%E7%AA%81%E7%A0%B4%E6%80%A7%E6%8A%80%E6%9C%AF%E5%90%91%E4%B8%AD%E5%9B%BD%E5%BC%80%E6%94%BE&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D16%26filter_type%3Drealtimehot%26c_type%3D31%26lcate%3D5001%26cate%3D5001%26band_rank%3D16%26stream_entry_id%3D31%26q%3D%25E6%2597%25A5%25E6%259C%25AC%25E7%2599%258C%25E7%2597%2587%25E7%25AA%2581%25E7%25A0%25B4%25E6%2580%25A7%25E6%258A%2580%25E6%259C%25AF%25E5%2590%2591%25E4%25B8%25AD%25E5%259B%25BD%25E5%25BC%2580%25E6%2594%25BE%26dgr%3D0%26flag%3D1%26pos%3D16%26display_time%3D1754644713%26pre_seqid%3D17546447131760502250116" target="_blank" class="news-link">日本癌症突破性技术向中国开放</a> [16] <font color='grey'>- 17时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3603338_100_1" target="_blank" class="news-link">中国台湾地区财政政策主管机关：下周主计总处对全年及第三季出口的预估应该都会上修。</a> [17] <font color='grey'>- 17时18分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E4%B8%AD%E5%9B%BD%E6%9D%82%E4%BA%A4%E8%87%AA%E8%A1%8C%E8%BD%A6%E4%B9%8B%E7%88%B6&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D20%26filter_type%3Drealtimehot%26c_type%3D31%26lcate%3D5001%26cate%3D5001%26band_rank%3D20%26stream_entry_id%3D31%26q%3D%25E4%25B8%25AD%25E5%259B%25BD%25E6%259D%2582%25E4%25BA%25A4%25E8%2587%25AA%25E8%25A1%258C%25E8%25BD%25A6%25E4%25B9%258B%25E7%2588%25B6%26dgr%3D0%26flag%3D1%26pos%3D20%26display_time%3D1754644713%26pre_seqid%3D17546447131760502250116" target="_blank" class="news-link">中国杂交自行车之父</a> [20] <font color='grey'>- 17时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053141" target="_blank" class="news-link">双一科技(300690.SZ)：上半年净利润9987.03万元 同比增长324.50%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3603396_100_1" target="_blank" class="news-link">舜宇光学科技：7月手机摄像模组出货量同比降2.9%。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 17时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3603395_100_1" target="_blank" class="news-link">舜宇光学科技：7月手机镜头出货量同比降14.6%。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 17时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.17%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3603365_101_1" target="_blank" class="news-link">Bitget上线Sidekick（K）现货交易</a> [9 - 29] <font color='grey'>- 17时18分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3603364_101_1" target="_blank" class="news-link">Bybit将上线Sidekick(K) U本位永续合约</a> [10 - 30] <font color='grey'>- 17时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053135" target="_blank" class="news-link">美银上调苹果目标价至250美元</a> [10] <font color='grey'>- 17时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2110198" target="_blank" class="news-link">【每日收评】三大指数均小幅收跌，AI应用方向全线走弱，新疆本地股午后爆发</a> [12] <font color='grey'>- 17时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3603385_0_1" target="_blank" class="news-link">美国对金条征收关税扰乱贸易，引发混乱</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 17时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.08%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053142" target="_blank" class="news-link">美股异动｜吉利德科学盘前涨约3% Q2业绩超预期 上调年度指引</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时18分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
