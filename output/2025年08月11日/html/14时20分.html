@@ -1,0 +1,103 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2025-08-11 14:20:38</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">4</td>
+                    <td class="percentage">7.55%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053957" target="_blank" class="news-link">大行评级｜高盛：上调统一企业中国目标价至10.6港元 重申“中性”评级</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053955" target="_blank" class="news-link">大行评级｜高盛：上调中国铁塔目标价至13港元 预计派息前景改善</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E6%B5%B7%E8%AD%A6%E4%BE%9D%E6%B3%95%E5%AF%B9%E8%8F%B2%E8%88%B9%E4%BA%88%E4%BB%A5%E9%A9%B1%E7%A6%BB%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E6%25B5%25B7%25E8%25AD%25A6%25E4%25BE%259D%25E6%25B3%2595%25E5%25AF%25B9%25E8%258F%25B2%25E8%2588%25B9%25E4%25BA%2588%25E4%25BB%25A5%25E9%25A9%25B1%25E7%25A6%25BB%2523%26flag%3D1%26stream_entry_id%3D31%26pos%3D16%26band_rank%3D15%26dgr%3D0%26realpos%3D15%26cate%3D5001%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26display_time%3D1754893168%26pre_seqid%3D17548931685200573062158" target="_blank" class="news-link">中国海警依法对菲船予以驱离</a> [15] <font color='grey'>- 14时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%9B%B4%E6%AE%B4%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E7%9A%84%E8%82%87%E4%BA%8B%E8%80%85%E5%9D%87%E8%A2%AB%E4%BF%9D%E9%87%8A%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E5%259B%25B4%25E6%25AE%25B4%25E4%25B8%25AD%25E5%259B%25BD%25E7%2595%2599%25E5%25AD%25A6%25E7%2594%259F%25E7%259A%2584%25E8%2582%2587%25E4%25BA%258B%25E8%2580%2585%25E5%259D%2587%25E8%25A2%25AB%25E4%25BF%259D%25E9%2587%258A%2523%26flag%3D1%26stream_entry_id%3D31%26pos%3D21%26band_rank%3D20%26dgr%3D0%26realpos%3D20%26cate%3D5001%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26display_time%3D1754893168%26pre_seqid%3D17548931685200573062158" target="_blank" class="news-link">围殴中国留学生的肇事者均被保释</a> [20] <font color='grey'>- 14时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.77%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053956" target="_blank" class="news-link">研报掘金丨信达证券：维持工业富联“买入”评级，AI算力需求驱动营收高增</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053951" target="_blank" class="news-link">研报掘金丨民生证券：维持中科金财“推荐”评级，AI+金融科技开创新时代</a> [7] <font color='grey'>- 14时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.77%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3605793_100_1" target="_blank" class="news-link">中国1-7月汽车销量同比增长12.0%，去年同期增长4.4%。</a> [15] <font color='grey'>- 14时20分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3605791_100_1" target="_blank" class="news-link">中国7月汽车销量同比增长14.7%，6月同比增长13.8%。</a> [16] <font color='grey'>- 14时20分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.77%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053952" target="_blank" class="news-link">成长风格指数沸腾！创业板ETF天弘(159977)涨2%，科创综指ETF天弘(589860)连续两日“吸金”超6800万，同类第一</a> [6] <font color='grey'>- 14时20分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5053947" target="_blank" class="news-link">A股异动 | 际华集团跌停，涉嫌信息披露违法违规被证监会立案</a> [11] <font color='grey'>- 14时20分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
