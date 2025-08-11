@@ -1,0 +1,103 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 17</p><p>生成时间: 2025-08-12 05:12:00</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">5</td>
+                    <td class="percentage">29.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3607347_100_1" target="_blank" class="news-link">美国总统特朗普：Lip-Bu Tan和我的内阁成员将共度时光，并在未来一周向我提出建议。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3607346_100_1" target="_blank" class="news-link">美国总统特朗普：此次会面非常有趣。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3607345_100_1" target="_blank" class="news-link">美国总统特朗普：与英特尔CEO Lip-Bu Tan、商务部长罗斯、经纪公司Howard Lutnick以及财长贝森特会面。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3607322_101_1" target="_blank" class="news-link">塔吉特位于美国得克萨斯州奥斯汀的商店发生枪击案，两人死亡。</a> [10 - 30] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3607309_0_1" target="_blank" class="news-link">2024年第二季度美国公司私募债务违约率上升；中端市场发行量下降</a> [12] <font color='grey'>- 05时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">11.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44837949" target="_blank" class="news-link">Why Tail-Recursive Functions Are Loops</a> [15] <font color='grey'>- 05时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44868868" target="_blank" class="news-link">Bcachefs to be removed from mainline Linux kernel</a> [22] <font color='grey'>- 05时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3607331_101_1" target="_blank" class="news-link">【行情】周一（8月11日），彭博电动汽车价格回报指数涨3.11%，报2905.31点。成分股智利化工矿业公司（Sqm）收涨12.60%，美国雅宝涨7%表现第二，小鹏汽车H股涨5.36%、普拉格动力涨4.64%、特斯拉涨2.85%、Lucid Group涨2.82%、蔚来集团涨2.62%紧随其后，沃尔沃汽车集团则收跌1.26%，理想汽车H股跌1.50%，Mp Materials跌2.19%，阿内卡矿业跌4.85%。</a> [8 - 28] <font color='grey'>- 05时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44865813" target="_blank" class="news-link">Claude is the drug, Cursor is the dealer</a> [27] <font color='grey'>- 05时12分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
