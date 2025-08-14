@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 31</p><p>生成时间: 2025-08-15 04:41:06</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">3</td>
+                    <td class="percentage">9.68%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3615047_101_1" target="_blank" class="news-link">伯克希尔减持苹果和美银</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 04时41分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3615033_0_1" target="_blank" class="news-link">MacroGenics公司报告第二季度亏损，但超出预期</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 04时41分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3615016_100_1" target="_blank" class="news-link">伯克希尔哈撒韦公司减持苹果公司股份6.7%至2.8亿股。</a> [9 - 29] <font color='grey'>- 04时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44904869" target="_blank" class="news-link">Airbrush art of the 80s was Chrome-tastic (2015)</a> [22] <font color='grey'>- 04时41分</font></div><br><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7537901978904821796" target="_blank" class="news-link">开源vs闭源AI工具大比较：成本、性能、生态的全方位对比</a> [30] <font color='grey'>- 04时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3615029_0_1" target="_blank" class="news-link">乌克兰最大移动运营商Kyivstar将成为首家在纳斯达克上市的乌克兰公司</a> [6 - 26] <font color='grey'>- 04时41分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3615017_101_1" target="_blank" class="news-link">【行情】联合健康美股盘后涨超4%。</a> [8 - 28] <font color='grey'>- 04时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44904893" target="_blank" class="news-link">Sam Altman is in damage-control mode after latest ChatGPT release</a> [18] <font color='grey'>- 04时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3615000_101_1" target="_blank" class="news-link">【行情】周四（8月14日），彭博电动汽车价格回报指数跌0.58%，报2916.80点。</a> [15] <font color='grey'>- 04时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3614962_100_1" target="_blank" class="news-link">加拿大总理卡尼：加拿大没有倾销油菜籽，渥太华将推进与中国的建设性对话。</a> [19] <font color='grey'>- 04时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3615013_101_1" target="_blank" class="news-link">美国投资公司协会（Ici）：美国货币市场资产增至7.19万亿美元，创历史新高。</a> [10 - 30] <font color='grey'>- 04时41分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44904974" target="_blank" class="news-link">Show HN: OSS MCP Security Scanner – Don&#x27;t Blindly Trust, Verify</a> [21] <font color='grey'>- 04时41分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
