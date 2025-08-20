@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 82</p><p>生成时间: 2025-08-20 10:26:21</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">11</td>
+                    <td class="percentage">13.41%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202508/2050143.html" target="_blank" class="news-link">美印关系陷僵局，特朗普“助力”印度重新向中国靠拢</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E7%9C%9F%E6%9C%89%E7%A7%BB%E5%B1%B1%E8%AE%A1%E5%88%92%E5%90%97" target="_blank" class="news-link">中国真有移山计划吗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2050140.html" target="_blank" class="news-link">梁文道播客在中国平台下架 多个社媒账号被封</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3621941_100_1" target="_blank" class="news-link">中国军方官员：阅兵中利用北斗定位技术。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3621940_100_1" target="_blank" class="news-link">中国军队官员：阅兵也是能力训练的一部分。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3621937_100_1" target="_blank" class="news-link">中国军方官员：将有数万人员、数百架飞机、数百件地面装备投入使用。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/2050138.html" target="_blank" class="news-link">美国施压下印度加深与中国联系 莫迪期待与习近平会面</a> [7] <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3621934_100_1" target="_blank" class="news-link">中国军方官员：将展示高超音速精确打击武器。</a> [7 - 27] <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3621930_100_1" target="_blank" class="news-link">中国军方官员：参加飞行表演的飞机中，部分将首次亮相。</a> [9 - 29] <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3621916_100_1" target="_blank" class="news-link">【行情】中国焦炭期货主力合约下跌逾3.5%至1658元/吨。</a> [19] <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3621915_100_1" target="_blank" class="news-link">【行情】中国焦煤期货主力合约下跌逾4.5%至每吨1135元。</a> [20] <font color='grey'>- 10时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">6.1%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1153611" target="_blank" class="news-link">[送码] 我的第一个 AI 主导开发的软件发布了, VideoIDE(乾坤视界) , 独创链式视频处理软件 , 含部分 AI 开发的思考总结</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1153608" target="_blank" class="news-link">AhaNote 语音备忘录 + AI 反思</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1153591" target="_blank" class="news-link">用 AI 写 HTML 页面，如何确保前端展示没问题？总在运行时发现语法错误或者缺函数</a> [6] <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1153590" target="_blank" class="news-link">准备搞个 AI 生成街头小贩吆喝语音的网站</a> [7] <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061327" target="_blank" class="news-link">上海“AI+制造”方案正式出台，头部AI企业技术成果成最佳实践</a> [10] <font color='grey'>- 10时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">5</td>
+                    <td class="percentage">6.1%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061335" target="_blank" class="news-link">A股异动丨军工股拉升，中天火箭涨近9%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061334" target="_blank" class="news-link">A股异动丨白酒股连续第三日上涨，酒鬼酒2连板</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061332" target="_blank" class="news-link">A股早评：创业板指低开1.14% 光伏设备板块盘初走强</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061328" target="_blank" class="news-link">资金把握折价修复机会，科创债ETF招商（551900）单日获4.98亿元资金净申购，最新规模突破110亿元</a> [9] <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061326" target="_blank" class="news-link">美股异动丨恒星电子国际跌36.96%，为跌幅最大的中概股</a> [11] <font color='grey'>- 10时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">3</td>
+                    <td class="percentage">3.66%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/2050142.html" target="_blank" class="news-link">分析：特朗普的调停让欧洲和乌克兰沮丧，先停火和先达成协议有何区别</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/world/202508/2050137.html" target="_blank" class="news-link">美国巴尔的摩港一货船爆炸 航道封锁</a> [8] <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3621923_0_1" target="_blank" class="news-link">亚洲股市因科技股抛售和美国政府影响力担忧而下跌</a> [13] <font color='grey'>- 10时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061333" target="_blank" class="news-link">港股异动丨光伏股走高 福耀玻璃绩后涨超15% 协鑫科技涨超2%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5061331" target="_blank" class="news-link">港股早评：三大指数低开 科技股普跌 回应传闻东方甄选开涨约5%</a> [6] <font color='grey'>- 10时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1153607" target="_blank" class="news-link">我现在觉得很多东西真的不应该开源，程序员开源的越多失业的越快</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44957157" target="_blank" class="news-link">Tiny microbe challenges the definition of cellular life</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 10时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44957454" target="_blank" class="news-link">Copilot broke audit logs, but Microsoft won&#x27;t tell customers</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7539544124669870115" target="_blank" class="news-link">别再瞎写提示词了！这份Claude Code优化指南让你效率提升10倍</a> [28] <font color='grey'>- 10时26分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
