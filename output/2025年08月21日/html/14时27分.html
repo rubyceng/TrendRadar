@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2025-08-21 14:27:03</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">4</td>
+                    <td class="percentage">7.27%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5062491" target="_blank" class="news-link">A股异动丨一鸣食品跌近5%，三股东拟合计减持不超3%股份</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3624330_101_1" target="_blank" class="news-link">丰田选择Avalanche开发其链上车辆金融原型，探索代币化所有权等</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5062486" target="_blank" class="news-link">A股异动丨容知日新跌6%，控股股东及一致人拟减持不超3%</a> [9] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5062484" target="_blank" class="news-link">A股异动丨东方锆业跌逾7%，董事长冯立明拟减持不超过131.5万股</a> [11] <font color='grey'>- 14时27分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E6%97%85%E5%AE%A2%E5%9C%A8%E8%8D%B7%E5%85%B0%E5%90%B8%E9%A3%9F%E6%AF%92%E5%93%81%E8%A1%8C%E4%B8%BA%E5%A4%B1%E6%8E%A7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E6%2597%2585%25E5%25AE%25A2%25E5%259C%25A8%25E8%258D%25B7%25E5%2585%25B0%25E5%2590%25B8%25E9%25A3%259F%25E6%25AF%2592%25E5%2593%2581%25E8%25A1%258C%25E4%25B8%25BA%25E5%25A4%25B1%25E6%258E%25A7%2523%26dgr%3D0%26band_rank%3D4%26pos%3D3%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26lcate%3D5001%26realpos%3D4%26stream_entry_id%3D31%26cate%3D5001%26display_time%3D1755757538%26pre_seqid%3D17557575383750539719131" target="_blank" class="news-link">中国旅客在荷兰吸食毒品行为失控</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5062485" target="_blank" class="news-link">大行评级｜大摩：上调中国宏桥目标价至26.4港元 维持“增持”评级</a> [10] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%BF%99%E5%BA%A7%E4%B8%AD%E5%9B%BD%E5%A4%A7%E6%A1%A5%E6%A8%AA%E7%AB%96%E9%83%BD%E6%98%AF%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E8%25BF%2599%25E5%25BA%25A7%25E4%25B8%25AD%25E5%259B%25BD%25E5%25A4%25A7%25E6%25A1%25A5%25E6%25A8%25AA%25E7%25AB%2596%25E9%2583%25BD%25E6%2598%25AF%25E4%25B8%2596%25E7%2595%258C%25E7%25AC%25AC%25E4%25B8%2580%2523%26dgr%3D0%26band_rank%3D10%26pos%3D10%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26lcate%3D5001%26realpos%3D10%26stream_entry_id%3D31%26cate%3D5001%26display_time%3D1755757538%26pre_seqid%3D17557575383750539719131" target="_blank" class="news-link">这座中国大桥横竖都是世界第一</a> [10] <font color='grey'>- 14时27分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5062489" target="_blank" class="news-link">大行评级｜高盛：上调舜宇光学科技目标价至91.1港元 上调2025至27年盈测</a> [6] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5062483" target="_blank" class="news-link">大行评级｜里昂：上调舜宇光学科技目标价至96.9港元 上调今明两年盈测</a> [12] <font color='grey'>- 14时27分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5062481" target="_blank" class="news-link">数字货币板块领涨，金融科技ETF、金融科技ETF华夏年内涨超36%</a> [14] <font color='grey'>- 14时27分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1153946" target="_blank" class="news-link">小白来请教大佬，像 Gemini Pro 订阅，支付怎么解决</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时27分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5062492" target="_blank" class="news-link">研报掘金丨开源证券：维持税友股份“买入”评级，AI+财税有望打开长期成长空间</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时27分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3624326_100_1" target="_blank" class="news-link">【行情】欧洲斯托克50指数期货下跌0.05%，德国DAX指数期货持平，富时指数期货上涨0.05%。</a> [7 - 27] <font color='grey'>- 14时27分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">能源 核能 大基建 新基建</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5062488" target="_blank" class="news-link">研报掘金丨东吴证券：维持佛燃能源“买入”评级，利润稳增，现金流大幅改善</a> [7] <font color='grey'>- 14时27分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3624342_101_1" target="_blank" class="news-link">以太坊基金会启动「Trillion Dollar Security」第二阶段，聚焦钱包用户体验优化</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 14时27分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
