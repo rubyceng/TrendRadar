@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2025-08-22 15:11:25</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063718" target="_blank" class="news-link">A股收评：沪指涨破3800点续创十年新高，科创50指数大涨8.59%，AI芯片、半导体板块爆发</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时11分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063714" target="_blank" class="news-link">歌尔股份(002241.SZ)中报确认业绩拐点，AI终端爆发撬动增长新周期​</a> [8] <font color='grey'>- 15时11分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063713" target="_blank" class="news-link">研报掘金丨国盛证券：维持歌尔股份“买入”评级，盈利水平提升明显，持续受益AI赋能</a> [9] <font color='grey'>- 15时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626584_100_1" target="_blank" class="news-link">欧洲斯托克指数下跌0.14%，欧元区蓝筹股指数下跌0.15%。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 15时11分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626574_0_1" target="_blank" class="news-link">【行情】越南VN30指数持续走低，日内跌超4%。</a> [6 - 26] <font color='grey'>- 15时11分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626556_100_1" target="_blank" class="news-link">日本共同通讯社：日本各省厅2026财年预算申请额度可能达到约120万亿日元，连续第三年创下历史新高。</a> [12] <font color='grey'>- 15时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063721" target="_blank" class="news-link">华塑科技(301157.SZ)：主要向维谛技术提供电池BMS产品及相关服务</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时11分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063715" target="_blank" class="news-link">群核科技更新招股书：上半年扭亏为盈，冲刺“全球空间智能第一股”</a> [7] <font color='grey'>- 15时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626572_101_1" target="_blank" class="news-link">瑞士资管公司Tyr Capital推出全新加密货币中性对冲基金</a> [8 - 28] <font color='grey'>- 15时11分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626562_100_1" target="_blank" class="news-link">富士康：富士康与三菱商事（Mitsubishi）签署关于零排放巴士的谅解备忘录。</a> [11] <font color='grey'>- 15时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626555_101_1" target="_blank" class="news-link">特斯拉接入豆包和Deepseek</a> [13] <font color='grey'>- 15时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/2250341.html" target="_blank" class="news-link">谷歌据报签下Meta云计算大单 总金额或超129亿元</a> [6] <font color='grey'>- 15时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/2250342.html" target="_blank" class="news-link">美司法部拟调查美联储理事库克 敦促鲍威尔将她免职</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时11分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2122920" target="_blank" class="news-link">存款搬家进A股？仍是起步期，过去曾有明显五次</a> [8] <font color='grey'>- 15时11分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
