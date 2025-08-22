@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-08-22 13:12:23</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">9.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1154204" target="_blank" class="news-link">开发了一个 ai 生成图片的免费网站，目前已经赔了 100$以上，我应该怎么办？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063675" target="_blank" class="news-link">从技术迭代到生态赋能：快手(1024.HK)AI战略交出亮眼半年答卷</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626425_100_1" target="_blank" class="news-link">韩国拟从下半年起陆续出台政策包，支持30个重大人工智能和创新项目。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626407_0_1" target="_blank" class="news-link">昆仑芯获得中国移动人工智能项目芯片订单</a> [15] <font color='grey'>- 13时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">4</td>
+                    <td class="percentage">9.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063673" target="_blank" class="news-link">埃里克·特朗普计划9月份访问日本 推动加密货币发展</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626428_100_1" target="_blank" class="news-link">据彭博社报道，埃里克·特朗普计划于九月访问日本</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626403_101_1" target="_blank" class="news-link">昨日美国现货以太坊ETF净流入2.876亿美元</a> [16] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%BA%E4%BD%95%E6%98%AF%E6%97%A5%E6%9C%AC%E7%A5%9E%E5%B1%B1" target="_blank" class="news-link">富士山为何是日本神山</a> [28] <font color='grey'>- 13时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626397_0_1" target="_blank" class="news-link">中国锂期货交易量和波动性均创历史新高</a> [18] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626391_100_1" target="_blank" class="news-link">【行情】ETF涨幅榜前五名中，iShares中国-U（09801.HK）大涨5.5%领涨。</a> [20] <font color='grey'>- 13时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063676" target="_blank" class="news-link">东京中央拍卖(01939.HK)拟更名为&quot;上善黄金国际控股有限公司&quot;</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063670" target="_blank" class="news-link">亚洲金融(00662.HK)上半年纯利增长17.1%至4.23亿港元 中期息6.5港仙</a> [8]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626395_100_1" target="_blank" class="news-link">市场消息：特斯拉将美国Cybertruck Cyberbeast版的价格上调至114990美元，此前为99990美元。</a> [19] <font color='grey'>- 13时12分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
