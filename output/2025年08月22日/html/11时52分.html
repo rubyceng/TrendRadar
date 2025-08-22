@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2025-08-22 11:52:00</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">5</td>
+                    <td class="percentage">12.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2250334.html" target="_blank" class="news-link">中国驻印大使：中国坚决与印度一道维持多边贸易体系</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626294_100_1" target="_blank" class="news-link">中国中期借贷便利（MLF）未到期余额仍为52500亿元，下周二有3000亿到期预计将提前一日续做。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2250329.html" target="_blank" class="news-link">王毅：中国愿与巴基斯坦打造升级版中巴经济走廊</a> [7] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063653" target="_blank" class="news-link">港股异动丨航空股大幅走低 中国国航跌近7% 东方航空跌近5%</a> [8] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2122450" target="_blank" class="news-link">券商晨会精华：DeepSeek-V3.1发布，国产算力板块迎催化</a> [13] <font color='grey'>- 11时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">7.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063659" target="_blank" class="news-link">美图CFO拆解AI应用变现三重密码：订阅爆发、场景突围与审美溢价</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44941899" target="_blank" class="news-link">My AI Had Fixed the Code Before I Saw It</a> [22] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7540305975510106112" target="_blank" class="news-link">『译』前端大佬的 5 个 Async/Await 小技巧</a> [29] <font color='grey'>- 11时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063658" target="_blank" class="news-link">A股异动丨济民健康连续2日回调，上半年净亏损5269.59万元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063655" target="_blank" class="news-link">A股午评：沪指涨0.67%逼近3800点！创业板指涨2.56%，半导体、算力板块大涨</a> [6] <font color='grey'>- 11时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">小米 雷军 xiaomi</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063660" target="_blank" class="news-link">大行评级｜建银国际：上调小米目标价至69港元 上调2025至27年盈利预测</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202508/2250335.html" target="_blank" class="news-link">黄仁勋飞抵台北 拟访台积电</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3626296_101_1" target="_blank" class="news-link">OpenAI将在印度设立办公室，并招聘员工以推动增长。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 11时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">芯片 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.5%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5063656" target="_blank" class="news-link">ETF午评 | A股直逼3800点，半导体板块全线爆发，科创芯片ETF指数、科创芯片ETF博时涨超6%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时52分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
