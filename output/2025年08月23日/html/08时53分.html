@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-08-23 08:53:04</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">4</td>
+                    <td class="percentage">9.52%</td>
+                    <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E5%AA%92%E7%A7%B0%E5%8D%97%E4%BA%AC%E7%85%A7%E7%9B%B8%E9%A6%86%E5%AF%B9%E6%97%A5%E6%9C%AC%E5%BD%A2%E8%B1%A1%E4%BA%A7%E7%94%9F%E5%BD%B1%E5%93%8D%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D4%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26band_rank%3D4%26lcate%3D5001%26stream_entry_id%3D31%26cate%3D5001%26q%3D%2523%25E6%2597%25A5%25E5%25AA%2592%25E7%25A7%25B0%25E5%258D%2597%25E4%25BA%25AC%25E7%2585%25A7%25E7%259B%25B8%25E9%25A6%2586%25E5%25AF%25B9%25E6%2597%25A5%25E6%259C%25AC%25E5%25BD%25A2%25E8%25B1%25A1%25E4%25BA%25A7%25E7%2594%259F%25E5%25BD%25B1%25E5%2593%258D%2523%26dgr%3D0%26pos%3D3%26display_time%3D1755908710%26pre_seqid%3D1755908710715050016483" target="_blank" class="news-link">日媒称南京照相馆对日本形象产生影响</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时53分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/politics/202508/2350388.html" target="_blank" class="news-link">特朗普：英特尔同意给予美国政府10%股权</a> [9] <font color='grey'>- 08时53分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2123670" target="_blank" class="news-link">加拿大宣布取消多项针对美国的报复性关税 将于9月1日生效</a> [11] <font color='grey'>- 08时53分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2123720" target="_blank" class="news-link">惠誉确认美国评级为“AA+” 美国政府已持有英特尔10%的股份 | 环球市场</a> [13]</div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3628037_0_1" target="_blank" class="news-link">特斯拉股价飙升，Cybertruck价格上涨</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 08时53分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3628032_0_1" target="_blank" class="news-link">金巴尔·马斯克在股东投票前支持马斯克的薪酬和特斯拉对xAI的投资</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 08时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202508/2350390.html" target="_blank" class="news-link">内蒙古主席王莉霞被查 中国省级政府女性一把手仅剩两人</a> [7]</div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%96%87%E5%8C%96%E4%B8%AD%E5%9B%BD%E8%A1%8C%E5%A4%84%E6%9A%91%E8%8A%82%E6%B0%94%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D18%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26band_rank%3D18%26lcate%3D5001%26stream_entry_id%3D31%26cate%3D5001%26q%3D%2523%25E6%2596%2587%25E5%258C%2596%25E4%25B8%25AD%25E5%259B%25BD%25E8%25A1%258C%25E5%25A4%2584%25E6%259A%2591%25E8%258A%2582%25E6%25B0%2594%2523%26dgr%3D0%26pos%3D17%26display_time%3D1755908710%26pre_seqid%3D1755908710715050016483" target="_blank" class="news-link">文化中国行处暑节气</a> [18] <font color='grey'>- 08时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44990680" target="_blank" class="news-link">Glyn: Type-safe PubSub and Registry for Gleam actors with distributed clustering</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44990798" target="_blank" class="news-link">Transcribe music in abc with syntax highlighting</a> [7] <font color='grey'>- 08时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2123727" target="_blank" class="news-link">【早报】国常会最新部署！事关体育产业；英伟达要求部分零部件供应商暂停生产H20芯片，外交部回应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44955923" target="_blank" class="news-link">From M1 MacBook to Arch Linux: A month-long experiment that became permanenent</a> [8] <font color='grey'>- 08时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=44991039" target="_blank" class="news-link">Mail Carriers Pause US Deliveries as Tariff Shift Sows Confusion</a> [14] <font color='grey'>- 08时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/opinion/202508/2350392.html" target="_blank" class="news-link">评论：比亚迪将在霹雳州设厂 落户丹绒马林KLK科技园</a> <font color='red'><strong>[5 - 6]</strong></font> <font color='grey'>- 08时53分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
