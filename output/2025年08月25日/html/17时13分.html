@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 39</p><p>生成时间: 2025-08-25 17:13:56</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.13%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5065555" target="_blank" class="news-link">华达科技(603358.SH)：获得客户项目定点</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5065549" target="_blank" class="news-link">爱迪特(301580.SZ)：拟2000万元设立爱迪特(杭州)数字科技</a> [7] <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">2</td>
+                    <td class="percentage">5.13%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45003358" target="_blank" class="news-link">Show HN: CasCache – multi-generational cache with optimistic concurrency control</a> [18] <font color='grey'>- 17时13分</font></div><br><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7542086955077648434" target="_blank" class="news-link">节食正在透支程序员的身体</a> [29] <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629306_101_1" target="_blank" class="news-link">美国新闻网站Axios：总统特朗普将于周一签署行政命令终止华盛顿特区”无现金保释”政策。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2124266" target="_blank" class="news-link">大模型不断迭代 AI应用进入技术突破与商业落地窗口期</a> [13] <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629302_0_1" target="_blank" class="news-link">保时捷Cellforce因电动汽车需求放缓而将重心转向研发</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629284_0_1" target="_blank" class="news-link">中国恒大因财务危机从香港证券交易所退市</a> [8 - 28] <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.56%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629283_0_1" target="_blank" class="news-link">【行情】英特尔美股盘前涨幅扩大至3%。</a> [9 - 29] <font color='grey'>- 17时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
