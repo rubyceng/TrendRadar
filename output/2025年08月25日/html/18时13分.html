@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2025-08-25 18:13:57</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">10</td>
+                    <td class="percentage">17.86%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202508/2550627.html" target="_blank" class="news-link">中国商务部副部长期待百威满足国内多样化消费需求</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2550626.html" target="_blank" class="news-link">中国政策顾问吁将消费占GDP比重提升至近一半</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2550625.html" target="_blank" class="news-link">中国国家博物馆来临星期天起闭馆四天</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629352_100_1" target="_blank" class="news-link">中国台湾地区货币政策主管机关：7月底全体银行承做房贷余额再创高，但年增率创20个月新低。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629348_100_1" target="_blank" class="news-link">中国国家新闻出版署发布2025年进口网络游戏审批信息，8月共7款进口游戏获批。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629344_100_1" target="_blank" class="news-link">中国国家新闻出版署公布8月份国产网络游戏审批信息，共166款游戏获批。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2550624.html" target="_blank" class="news-link">中国外交部指中方愿参与乌克兰国际维和部队报道不属实</a> [6] <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2550623.html" target="_blank" class="news-link">消息：中国民企签订20年协议 参与委内瑞拉石油生产</a> [7] <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2550622.html" target="_blank" class="news-link">中国要求企业设产品流向记录制度后 多家稀土生产商股价大涨</a> [8] <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2550620.html" target="_blank" class="news-link">中国外交部回应越南建设活动：南沙群岛是中国固有领土</a> [10] <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.36%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5065680" target="_blank" class="news-link">海阳科技(603382.SH)：上半年净利润7884.62万元，同比增长1.61%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5065669" target="_blank" class="news-link">丛麟科技(688370.SH)：原一致行动协议到期解除、部分实际控制人续签一致行动协议</a> [12] <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5065666" target="_blank" class="news-link">兆日科技(300333.SZ)：上半年净亏损83.99万元</a> [15] <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.57%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2124997" target="_blank" class="news-link">【数据看盘】科创50ETF上周份额大减 机构、游资联手抢筹罗博特科</a> [9] <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5065672" target="_blank" class="news-link">丽珠医药(01513.HK)8月25日耗资299.92万元回购7.23万股A股</a> [9] <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5065670" target="_blank" class="news-link">诺科达科技(00519.HK)附属与马来西亚Mach 1 Group签署战略合作备忘录推进国际化业务发展</a> [11] <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2124969" target="_blank" class="news-link">【焦点复盘】AI硬件、资源股双轮驱动，三大指数跳空中阳续创阶段新高，两市成交额单日放量近6000亿</a> [12] <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2550628.html" target="_blank" class="news-link">奇瑞汽车将供应商平均支付账期压缩至47天</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.79%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629335_0_1" target="_blank" class="news-link">杰罗姆·鲍威尔暗示可能降息，因美国就业增长放缓</a> [7 - 27] <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
