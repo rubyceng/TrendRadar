@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-08-25 21:05:21</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">10</td>
+                    <td class="percentage">16.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629740_0_1" target="_blank" class="news-link">美国政府考虑扩大对半导体产业以外行业的股权投资</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629738_101_1" target="_blank" class="news-link">美国白宫国家经济委员会主任Hassett：鲍威尔不可能重获特朗普的好感。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629715_101_1" target="_blank" class="news-link">美国7月芝加哥联储全国活动指数 -0.19，预期 -0.11，前值 -0.1。</a> [9 - 29] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629704_101_1" target="_blank" class="news-link">日本准备就其在美投资发布联合公报。</a> [10 - 30] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629702_0_1" target="_blank" class="news-link">美国白宫国家经济委员会主任Hassett：有望与韩国最终敲定贸易协议。</a> [11] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629696_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任Hassett：（谈及美联储）预计在特朗普做出决定之前，美联储主席人选还需要几个月的时间。</a> [14] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629694_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任Hassett：（谈及美联储）美联储主席鲍威尔的发言很有见地。</a> [15] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629693_100_1" target="_blank" class="news-link">美国白宫国家经济委员会主任Hassett：（谈及美联储）考虑降息是合适的。</a> [16] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629691_0_1" target="_blank" class="news-link">美国白宫国家经济委员会主任Hassett：政府未来可能会从企业中取得更多股权。</a> [17] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629689_0_1" target="_blank" class="news-link">美国白宫国家经济委员会主任Hassett：（谈论美国政府持有英特尔股份和其他行业投资）这是一个特殊情况，但未来在该行业及其他行业可能会有更多交易。</a> [18] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技</td>
+                    <td class="count">5</td>
+                    <td class="percentage">8.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5066030" target="_blank" class="news-link">锐新科技(300828.SZ)：上半年净利润2033.20万元 同比下降23.53%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5066028" target="_blank" class="news-link">马可数字科技(01942.HK)订立买卖协议</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5066025" target="_blank" class="news-link">诚迈科技(300598.SZ)：上半年净亏损5671.76万元</a> [6] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5066023" target="_blank" class="news-link">皇马科技(603181.SH)：王新荣及马夏坤拟合计减持不超过160万股公司股份</a> [8] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5066020" target="_blank" class="news-link">汇顶科技(603160.SH)：总裁柳玉平因涉嫌内幕交易被证监会立案</a> [11] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45013076" target="_blank" class="news-link">Walmart Fires VP in Tech for Taking Daily Kickbacks Starting from $30K</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1154860" target="_blank" class="news-link">做了一个 AI 子弹时间效果工具，让人人都能玩转子弹时间特效</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45013036" target="_blank" class="news-link">Why I&#x27;m Now Running Enterprise AI on My Laptop (Without Internet)</a> [29] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629724_100_1" target="_blank" class="news-link">拼多多高管：观察到零售额稳步增长，对中国消费市场的潜力保持坚定信心。</a> [7 - 27] <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629695_100_1" target="_blank" class="news-link">中国德业股份：拟向全体股东每股派发现金红利1.108元。</a> [13] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629748_101_1" target="_blank" class="news-link">Empery Digital增持13枚比特币，总持仓达4,065枚</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629725_100_1" target="_blank" class="news-link">【行情】Napco Security盘前股价上涨15%，此前该公司第四季度营收超出预期。</a> [6 - 26] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3629732_101_1" target="_blank" class="news-link">【行情】拼多多美股盘前跌幅扩大至1%。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 21时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2125213" target="_blank" class="news-link">美股三大期指集体走低 阿里、蔚来等中概股逆市上扬 | 今夜看点</a> [11] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">就业</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2125150" target="_blank" class="news-link">国家发展改革委主任郑栅洁主持召开座谈会 听取“十五五”时期扩内需稳就业意见建议</a> [13] <font color='grey'>- 21时05分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
