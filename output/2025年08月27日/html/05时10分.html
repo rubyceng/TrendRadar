@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 16</p><p>生成时间: 2025-08-27 05:10:21</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">4</td>
+                    <td class="percentage">25.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3632582_101_1" target="_blank" class="news-link">美国石油协会（Api）数据显示，8月22日当周，美国Api原油库存 -97.4万桶，之前一周 -241.7万桶。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 05时10分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3632569_101_1" target="_blank" class="news-link">韩国总统李在明：韩国造船业将投资美国，并在美国招聘。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 05时10分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3632565_101_1" target="_blank" class="news-link">美国小企业管理局（Sba）局长Loeffler：Sba发函，要求5000家贷款机构停止“去银行”进程。</a> [6 - 26] <font color='grey'>- 05时10分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3632561_0_1" target="_blank" class="news-link">美国司法部调查联合健康集团的药房福利管理</a> [7 - 27] <font color='grey'>- 05时10分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">6.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45026886" target="_blank" class="news-link">A teen was suicidal. ChatGPT was the friend he confided in</a> [26] <font color='grey'>- 05时10分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">6.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45013572" target="_blank" class="news-link">Show HN: Async – Claude code and Linear and GitHub PRs in one opinionated tool</a> [16] <font color='grey'>- 05时10分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">6.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3632556_101_1" target="_blank" class="news-link">【行情】截至收盘，量子之歌涨3.62%，腾讯音乐涨1.98%，文远知行涨1.67%，小马智行涨1.65%，日月光半导体涨1.62%。亿航智能跌7.53%，信也科技跌4.82%，迅雷跌3.16%，声网跌3.02%，逸仙电商跌1.82%。</a> [10 - 30] <font color='grey'>- 05时10分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">1</td>
+                    <td class="percentage">6.25%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45032276" target="_blank" class="news-link">LiteLLM (YC W23) is hiring a back end engineer</a> [6] <font color='grey'>- 05时10分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
