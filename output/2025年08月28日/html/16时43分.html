@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-08-28 16:43:44</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">4</td>
+                    <td class="percentage">8.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3635872_100_1" target="_blank" class="news-link">欧洲央行管委雷恩：我认为美元主导地位将迅速而大幅削弱的前景可能性不大。</a> [17] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3635871_100_1" target="_blank" class="news-link">欧洲央行管委雷恩：美国总统特朗普对美联储独立性的施压会带来全球风险。</a> [18] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3635870_100_1" target="_blank" class="news-link">欧洲央行管委雷恩：欧洲央行密切关注经济形势，并已准备好在必要时采取行动。</a> [19] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3635869_100_1" target="_blank" class="news-link">欧洲央行管委雷恩：欧元区经济增长表现已证明比预期更具韧性，而通胀正在放缓至2%的目标水平以下。</a> [20] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">6.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5070042" target="_blank" class="news-link">港股收评：三大指数齐跌 科技股、基建股低迷 半导体股大肆走高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5070033" target="_blank" class="news-link">云涌科技(688060.SH)：上半年净亏损886.39万元</a> [11] <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5070030" target="_blank" class="news-link">润阳科技(300920.SZ)：上半年净利润1503.37万元 同比下降24.71%</a> [14] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3635918_100_1" target="_blank" class="news-link">理想汽车：二季度营收302亿元，同比减少4.5%。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 16时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3635916_100_1" target="_blank" class="news-link">理想汽车：预计三季度车辆交付量9-9.5万辆，同比减少37.8-41.1%。</a> [6 - 26] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5070040" target="_blank" class="news-link">美股异动｜CrowdStrike盘前跌超3.6% 第二财季同比由盈转亏</a> <font color='red'><strong>[4]</strong></font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3635923_100_1" target="_blank" class="news-link">【行情】ETF涨幅前五中，Xl2博时创业板ETF（07234.HK）飙升9.4%领跑。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">小米 雷军 xiaomi</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3635904_101_1" target="_blank" class="news-link">小米澎湃Os 3正式发布：小米超级岛来了，首发支持下拉小窗和拖拽分享</a> [9 - 29] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3635891_101_1" target="_blank" class="news-link">美股英伟达盘前跌2.2%</a> [12] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5070029" target="_blank" class="news-link">中国科传(601858.SH)：上半年净利润1.9亿元 同比增长35.76%</a> [15] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45009629" target="_blank" class="news-link">Leeches and the Legitimizing of Folk-Medicine</a> [12] <font color='grey'>- 16时43分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
