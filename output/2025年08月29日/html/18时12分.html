@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-08-29 18:12:04</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">15</td>
+                    <td class="percentage">25.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202508/2950988.html" target="_blank" class="news-link">党中央决定：周心怀任中国石油总经理</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5072441" target="_blank" class="news-link">中国储能科技发展(01143.HK)：中期净亏损1627.3万港元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5072440" target="_blank" class="news-link">中国交建(601800.SH)上半年净利润95.68亿元，同比下降16.06%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%96%B0%E4%B8%AD%E5%9B%BD%E5%8E%86%E6%AC%A1%E9%98%85%E5%85%B5%E5%A4%A7%E7%9B%98%E7%82%B9" target="_blank" class="news-link">新中国历次阅兵大盘点</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638751_100_1" target="_blank" class="news-link">中国银行高管：将推动消费贷款提质增效，助力以旧换新和国补加力扩围。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638745_100_1" target="_blank" class="news-link">中国建行行长：上半年贷款和债券投资较上年末增加2.7万亿元，增长速度创三年新高。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202508/2950982.html" target="_blank" class="news-link">台湾预估中国大陆去年在西太平洋地区军演费用逾200亿美元</a> [7] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638730_100_1" target="_blank" class="news-link">中国银行高管：随着房地产供需两端政策同向发力，预计房地产市场有望逐步止跌回稳。</a> [10 - 30] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638728_100_1" target="_blank" class="news-link">中国银行高管：房地产业仍然是现在境内新发生不良的第一大行业，但实质新增同比已出现下降趋势。</a> [11] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2130676" target="_blank" class="news-link">【数据看盘】IM期指空头大幅减仓 一线游资连续两日抢筹中国稀土</a> [12] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638724_100_1" target="_blank" class="news-link">中国工行高管：对未来净息差边际企稳的趋势“抱有坚定的信心”。</a> [13] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638720_100_1" target="_blank" class="news-link">中国工行高管：坚持风险定价原则，遵守监管部门遏制价格无序竞争的系列要求，防范贷款利率非理性下行。</a> [14] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638717_100_1" target="_blank" class="news-link">中国银行高管：将美元利率的高位时机，进一步加大外币债券投资的配置力度。</a> [15] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638726_100_1" target="_blank" class="news-link">中国银行行长：将坚定抵制不正当竞争行为，这有利于优化存款利率和贷款定价。</a> [16] <font color='grey'>- 18时12分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638713_100_1" target="_blank" class="news-link">中国农行高管：坚守不新增地方政府隐债的“红线”，在此前提下合规办理新增融资业务。</a> [20] <font color='grey'>- 18时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638753_100_1" target="_blank" class="news-link">美国法官可能阻止特朗普解雇美联储理事库克。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 18时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">能源 核能 大基建 新基建</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3638715_100_1" target="_blank" class="news-link">信实工业执行董事：将在新能源项目上投资7500亿卢比。</a> [19] <font color='grey'>- 18时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1155848" target="_blank" class="news-link">有个疑问：韩国的 IT 岗位很少吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时12分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5072439" target="_blank" class="news-link">乐山电力(600644.SH)上半年净利润790.31万元，同比下降14.55%</a> [6] <font color='grey'>- 18时12分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
