@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 68</p><p>生成时间: 2025-08-29 11:13:51</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">8</td>
+                    <td class="percentage">11.76%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2950949.html" target="_blank" class="news-link">美延长部分中国商品关税豁免期</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637813_100_1" target="_blank" class="news-link">中国外交部副部长马朝旭：中方愿同美国相向而行，继续探寻新时期两个大国正确相处之道。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637812_100_1" target="_blank" class="news-link">中国外交部副部长马朝旭：想要遏制中国的发展壮大阻碍中华民族复兴，注定以失败收场。</a> <font color='red'><strong>[3 - 23]</strong></font> <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637811_100_1" target="_blank" class="news-link">中国外交部副部长马朝旭：（就中美关系表示）对中国搞施压、胁迫“行不通，办不到”。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637805_100_1" target="_blank" class="news-link">【行情】宁德时代A股飙近10%创逾三年新高，中国发改委称加快治理内卷。</a> [8 - 28] <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5071875" target="_blank" class="news-link">港股异动丨黄金股强势 中国黄金国际、灵宝黄金、招金矿业齐创新高</a> [13] <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637795_100_1" target="_blank" class="news-link">【行情】中国半导体商北方华创早盘重挫8.8%，上半年业绩增速放缓。</a> [13] <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%96%B0%E4%B8%AD%E5%9B%BD%E6%88%90%E7%AB%8B%E4%BB%A5%E6%9D%A5%E4%BB%8E%E6%9C%AA%E4%B8%BB%E5%8A%A8%E6%8C%91%E8%B5%B7%E4%B8%80%E5%9C%BA%E6%88%98%E4%BA%89%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D20%26q%3D%2523%25E6%2596%25B0%25E4%25B8%25AD%25E5%259B%25BD%25E6%2588%2590%25E7%25AB%258B%25E4%25BB%25A5%25E6%259D%25A5%25E4%25BB%258E%25E6%259C%25AA%25E4%25B8%25BB%25E5%258A%25A8%25E6%258C%2591%25E8%25B5%25B7%25E4%25B8%2580%25E5%259C%25BA%25E6%2588%2598%25E4%25BA%2589%2523%26dgr%3D0%26realpos%3D20%26stream_entry_id%3D31%26c_type%3D31%26cate%3D5001%26pos%3D21%26flag%3D1%26filter_type%3Drealtimehot%26display_time%3D1756437129%26pre_seqid%3D17564371294790203418494" target="_blank" class="news-link">新中国成立以来从未主动挑起一场战争</a> [20] <font color='grey'>- 11时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">7.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5071886" target="_blank" class="news-link">电池旺季来临+AIDC催化，电池板块接棒上攻，储能电池ETF（159566）大涨超4%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5071880" target="_blank" class="news-link">“寒王”主动降温！今年狂“吸金”60亿的科创AIETF(588790)探底回升</a> [8] <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7542823614158209059" target="_blank" class="news-link">大家可以尝试一下前端AI CodeReview库</a> [28] <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7542769243080491018" target="_blank" class="news-link">半小时打造七夕传统文化网站：Qoder AI编程实战记录</a> [29] <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45057781" target="_blank" class="news-link">Every industry is an overcrowded airport lounge now</a> [30] <font color='grey'>- 11时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">4</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637810_100_1" target="_blank" class="news-link">日本经济大臣赤泽亮正：在美国总统行政令发布前，可能需要至少再访问美国一次。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%97%A5%E6%9C%AC%E5%85%AC%E5%85%B3%E8%B4%B9%E8%8A%B1%E5%93%AA%E4%BA%86" target="_blank" class="news-link">日本公关费花哪了</a> [6] <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637808_100_1" target="_blank" class="news-link">日本经济大臣赤泽亮正：将在必要安排完成后立即访问美国。</a> [7 - 27] <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637794_100_1" target="_blank" class="news-link">日本财务大臣加藤胜信：已意识到利率正在上升，将继续与债券市场参与者沟通，并适当管理债务政策。</a> [14] <font color='grey'>- 11时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">2.94%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637815_0_1" target="_blank" class="news-link">【行情】A股创业板指涨超3%，创2022年2月以来三年半新高，宁德时代涨超11.5%。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 11时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637793_100_1" target="_blank" class="news-link">【行情】中证白酒指数升逾3%，报导称中央汇金上半年加仓白酒等ETF。</a> [15] <font color='grey'>- 11时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.47%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202508/2950951.html" target="_blank" class="news-link">黄仁勋：和白宫协商对华销售需时间</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.47%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637800_100_1" target="_blank" class="news-link">【行情】中国中证新能源汽车指数早盘一度扬4.5%，创两年新高。</a> [10 - 30] <font color='grey'>- 11时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.47%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3637803_0_1" target="_blank" class="news-link">华尔街科技股上涨后亚洲股市上涨</a> [9 - 29] <font color='grey'>- 11时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">能源 核能 大基建 新基建</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.47%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5071882" target="_blank" class="news-link">2.5 亿新能源资产上链！瑞和数智布局 RWA 新蓝海</a> [6] <font color='grey'>- 11时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
