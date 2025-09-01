@@ -1,0 +1,127 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2025-09-01 18:13:31</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3641498_101_1" target="_blank" class="news-link">蔚来：8月交付31,305辆汽车，同比增长55.2%。</a> [9 - 29] <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3641497_100_1" target="_blank" class="news-link">理想汽车：8月交付28529辆汽车。</a> [10 - 30] <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.92%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3641487_100_1" target="_blank" class="news-link">韩国官员：“韩国”与美国就峰会前基金问题举行了“激烈的”谈判。</a> [12] <font color='grey'>- 18时13分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2131978" target="_blank" class="news-link">美国散户们有多牛？爆炒网红股后 又把公司CEO赶下了台</a> [13] <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45090872" target="_blank" class="news-link">Tell HN: Use &quot;-f**k&quot; to kill Google AI Overview</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7543873991691649043" target="_blank" class="news-link">Claude Code 太贵用不起？这个中转站让你省一半钱，还更稳定</a> [29] <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0151210.html" target="_blank" class="news-link">中国规定网络平台AI生成内容须添加标识</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0151209.html" target="_blank" class="news-link">普拉博沃取消访华 中国外交部：理解并尊重</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5075091" target="_blank" class="news-link">柯力传感(603662.SH)：拟1.22亿元收购华虹科技45%股权</a> [12] <font color='grey'>- 18时13分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
