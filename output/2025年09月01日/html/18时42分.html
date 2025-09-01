@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2025-09-01 18:42:31</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5075129" target="_blank" class="news-link">奋达科技(002681.SZ)：尚未回购公司股份</a> [6] <font color='grey'>- 18时42分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5075125" target="_blank" class="news-link">光格科技(688450.SH)：已累计回购0.8623%股份</a> [10] <font color='grey'>- 18时42分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5075122" target="_blank" class="news-link">联易融科技-W(09959.HK)9月1日耗资60.5万港元回购23.4万股</a> [13] <font color='grey'>- 18时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5075126" target="_blank" class="news-link">中国中药(00570.HK)附属与国药工程及武汉宏利签订醇提取车间建设项目－净化工程施工协议</a> [9] <font color='grey'>- 18时42分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3641545_100_1" target="_blank" class="news-link">韩联社：朝鲜领导人金正恩已启程前往中国参加阅兵活动。</a> [13] <font color='grey'>- 18时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45091119" target="_blank" class="news-link">National Grid: UK&#x27;s largest battery storage facility at Tilbury substation</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45053672" target="_blank" class="news-link">Bidirectional Signals from the Emitter&#x27;s Perspective in PHP</a> [24] <font color='grey'>- 18时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1156385" target="_blank" class="news-link">Claude Code 上车</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3641569_101_1" target="_blank" class="news-link">Binance：AIO交易现仅限卖出，因项目团队多签钱包出现安全漏洞</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 18时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3641552_0_1" target="_blank" class="news-link">高盛预测斯托克欧洲600指数温和增长，摩根大通认为其具有潜在的超额表现</a> [10 - 30] <font color='grey'>- 18时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">能源 核能 大基建 新基建</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3641536_100_1" target="_blank" class="news-link">爱尔兰8月不包括能源和未加工食品的调和CPI同比上涨1.9%，7月份为上涨1.7%。</a> [17] <font color='grey'>- 18时42分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.82%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2132625" target="_blank" class="news-link">【数据看盘】多只黄金ETF成交额大增 实力游资“回归”超4亿抢筹国轩高科</a> [12] <font color='grey'>- 18时42分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
