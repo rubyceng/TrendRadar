@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-09-03 21:00:49</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3645661_0_1" target="_blank" class="news-link">美联储理事沃勒：理事库克的案件正在法院审理，对此不发表评论。法院将很快决定库克的案件将如何发展。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 21时00分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3645651_100_1" target="_blank" class="news-link">美联储理事沃勒：库克的案件目前正在法院审理中，对此不予置评。</a> [10 - 30] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45114753" target="_blank" class="news-link">MIT Study Finds AI Use Reprograms the Brain, Leading to Cognitive Decline</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45114715" target="_blank" class="news-link">Dynamo AI (YC W22) Is Hiring for AI Product Managers</a> [8] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3645652_0_1" target="_blank" class="news-link">美国电动汽车销量预计在税收抵免到期后下降</a> [9 - 29] <font color='grey'>- 21时00分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3645631_100_1" target="_blank" class="news-link">极星汽车：我们不会不惜一切代价在美国市场扩张。</a> [20] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077329" target="_blank" class="news-link">美国银行重启比特币托管服务 面向机构投资经理提供加密资产保障</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时00分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3645644_0_1" target="_blank" class="news-link">美联储理事沃勒：美国10年期国债收益率已基本稳定。</a> [15] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">4.44%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077325" target="_blank" class="news-link">特朗普家族旗下比特币矿企将登陆纳斯达克</a> [6] <font color='grey'>- 21时00分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077321" target="_blank" class="news-link">顺丰控股(06936.HK)9月3日耗资4978.25万元回购118.5万股A股</a> [10] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077327" target="_blank" class="news-link">美股盘前要点 | 英伟达否认H100/H200芯片短缺！谷歌反垄断案裁定出炉</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3645641_100_1" target="_blank" class="news-link">中国外长王毅：中欧是伙伴不是对手，完全可以相互借鉴，相互成就。</a> [16] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">2.22%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077320" target="_blank" class="news-link">筑友智造科技(00726.HK)委任何远卿及胡利平为执行董事</a> [11] <font color='grey'>- 21时00分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
