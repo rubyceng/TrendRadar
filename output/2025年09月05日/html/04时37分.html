@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 26</p><p>生成时间: 2025-09-05 04:37:00</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">4</td>
+                    <td class="percentage">15.38%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3648888_101_1" target="_blank" class="news-link">美国芝加哥期权交易所（Cboe）8月期货日均成交量下滑31.3%。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 04时37分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3648883_100_1" target="_blank" class="news-link">美国白宫：美国将对几乎所有日本进口商品征收15%的基准关税。</a> <font color='red'><strong>[4 - 24]</strong></font> <font color='grey'>- 04时37分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3648882_100_1" target="_blank" class="news-link">美国白宫：日本正努力加快实施一项美国稻米采购量增加75%的计划。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 04时37分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3648872_100_1" target="_blank" class="news-link">美国白宫：总统特朗普签署行政命令，正式实施美日贸易协议。</a> [7 - 27] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">7.69%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45129267" target="_blank" class="news-link">AI not affecting job market much so far, New York Fed says</a> [23] <font color='grey'>- 04时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45092471" target="_blank" class="news-link">Math Moments: Blaise Pascal</a> [28] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3648855_101_1" target="_blank" class="news-link">【行情】周四（9月4日），彭博电动汽车价格回报指数跌1.30%，报2986.47点。成分股中，日本电产株式会社东京股价收跌22.44%，蔚来集团H股跌6.42%，宣布裁员方案的“特斯拉劲敌”Rivian跌约5%表现倒数第三。在收涨的三只成分股里，理想汽车H股涨0.16%，智利化工矿业公司（Sqm）涨1.30%，特斯拉涨超1%。</a> [11] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1157204" target="_blank" class="news-link">基于 Dify 的知识库搭建和写作工作流 vs 基于 ChatGPT/Claude Project 的写作</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1157203" target="_blank" class="news-link">Warp Agent 会偷偷将 Claude 4.1 Opus 请求降级至 Claude 3.5 Sonnet</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45131538" target="_blank" class="news-link">Classic 8×8-pixel B&amp;W Mac patterns</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3648870_101_1" target="_blank" class="news-link">【行情】截至收盘，亿航智能涨1.19%，晶科能源涨1.00%，雾芯科技涨0.79%，百胜中国涨0.68%，唯品会涨0.12%。逸仙电商跌5.48%，百济神州跌5.21%，迅雷跌5.06%，宝尊电商跌4.22%，再鼎医药跌4.15%。</a> [8 - 28] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.85%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45131243" target="_blank" class="news-link">Action was the best 8-bit programming language</a> [8] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
