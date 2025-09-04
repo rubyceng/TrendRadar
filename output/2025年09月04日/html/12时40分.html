@@ -1,0 +1,103 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 22</p><p>生成时间: 2025-09-04 12:40:06</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">13.64%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077696" target="_blank" class="news-link">固态电池概念股走强，电池ETF嘉实、锂电池ETF、储能电池ETF、电池50ETF上涨</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077694" target="_blank" class="news-link">宏利金融-S(00945.HK)：将于9月19日派付第二季度普通股息每股2.484812港元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时40分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077692" target="_blank" class="news-link">港股午评：恒指跌1.21%险守25000点，金融股低迷 半导体股下挫 黄金股回调</a> [6] <font color='grey'>- 12时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">2</td>
+                    <td class="percentage">9.09%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0451462.html" target="_blank" class="news-link">阿根廷政府指责中国一家银行推动比索贬值</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时40分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%8B%B1%E5%AA%92%E8%AE%B0%E8%80%85%E6%BF%80%E5%8A%A8%E7%A7%B0%E8%B5%9E%E4%B8%AD%E5%9B%BD%E9%98%85%E5%85%B5%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26flag%3D1%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E8%258B%25B1%25E5%25AA%2592%25E8%25AE%25B0%25E8%2580%2585%25E6%25BF%2580%25E5%258A%25A8%25E7%25A7%25B0%25E8%25B5%259E%25E4%25B8%25AD%25E5%259B%25BD%25E9%2598%2585%25E5%2585%25B5%2523%26dgr%3D0%26realpos%3D10%26band_rank%3D10%26pos%3D10%26display_time%3D1756960291%26pre_seqid%3D175696029141902669144" target="_blank" class="news-link">英媒记者激动称赞中国阅兵</a> [10] <font color='grey'>- 12时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.55%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077691" target="_blank" class="news-link">旋极信息(300324.SZ)：浙江曲速新产品TGU01芯片主要用于AI大模型推理场景，目前已经适配deepseek软件</a> [7] <font color='grey'>- 12时40分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">4.55%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077693" target="_blank" class="news-link">吉利汽车(00175.HK)9月4日因认股权获行使发行1.5万股</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时40分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
