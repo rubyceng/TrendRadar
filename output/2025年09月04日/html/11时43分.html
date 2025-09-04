@@ -1,0 +1,135 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-09-04 11:43:07</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">11</td>
+                    <td class="percentage">18.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0451455.html" target="_blank" class="news-link">93阅兵观察：从新武器看中国军事力量的五大讯号</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0451454.html" target="_blank" class="news-link">中国购物中心建设热潮背后的繁荣与困境</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0451453.html" target="_blank" class="news-link">普京莫迪抵达中国参加上合峰会，但美中印贸易战使峰会蒙上阴影</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077669" target="_blank" class="news-link">研报掘金｜中金：上调中国银河目标价至13.8港元 维持“跑赢行业”评级</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3647017_100_1" target="_blank" class="news-link">中国台湾金管会：银行不得以购买房贷寿险商品做为贷款的搭售条件。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2135190" target="_blank" class="news-link">中国首起反规避调查，商务部发声</a> [7] <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646980_100_1" target="_blank" class="news-link">俄罗斯能源部长：俄罗斯石油公司（Rosneft）签署通过哈萨克斯坦向中国增加250万吨石油供应量的协议。</a> [11] <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646971_0_1" target="_blank" class="news-link">2024年巴西吸引中国投资额全球第三</a> [14] <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%BE%B7%E5%AA%92%E7%A7%B0%E4%B8%AD%E5%9B%BD%E9%98%85%E5%85%B5%E6%AD%A6%E5%99%A8%E9%81%A5%E9%81%A5%E9%A2%86%E5%85%88&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D17%26c_type%3D31%26q%3D%25E5%25BE%25B7%25E5%25AA%2592%25E7%25A7%25B0%25E4%25B8%25AD%25E5%259B%25BD%25E9%2598%2585%25E5%2585%25B5%25E6%25AD%25A6%25E5%2599%25A8%25E9%2581%25A5%25E9%2581%25A5%25E9%25A2%2586%25E5%2585%2588%26cate%3D5001%26filter_type%3Drealtimehot%26flag%3D1%26stream_entry_id%3D31%26realpos%3D17%26dgr%3D0%26pos%3D17%26display_time%3D1756957284%26pre_seqid%3D175695728495904097319156" target="_blank" class="news-link">德媒称中国阅兵武器遥遥领先</a> [17] <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%232025WTT%E4%B8%AD%E5%9B%BD%E5%A4%A7%E6%BB%A1%E8%B4%AF%E7%A5%A8%E4%BB%B7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26band_rank%3D19%26c_type%3D31%26q%3D%25232025WTT%25E4%25B8%25AD%25E5%259B%25BD%25E5%25A4%25A7%25E6%25BB%25A1%25E8%25B4%25AF%25E7%25A5%25A8%25E4%25BB%25B7%2523%26cate%3D5001%26filter_type%3Drealtimehot%26flag%3D1%26stream_entry_id%3D31%26realpos%3D19%26dgr%3D0%26pos%3D19%26display_time%3D1756957284%26pre_seqid%3D175695728495904097319156" target="_blank" class="news-link">2025WTT中国大满贯票价</a> [19] <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646959_0_1" target="_blank" class="news-link">新华社：中国国家主席习近平会见古巴共产党中央第一书记、国家主席迪亚斯-卡内尔。</a> [20] <font color='grey'>- 11时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646978_101_1" target="_blank" class="news-link">美国终止授予委内瑞拉移民临时保护身份</a> [13] <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646969_0_1" target="_blank" class="news-link">韩国计划向美国关键产业投资3500亿美元</a> [15] <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646962_0_1" target="_blank" class="news-link">摩根大通：如果日本自民党在9月8日的会议上决定提前举行领导层选举，届时市场已经基本消化了日本首相石破茂将下台的可能性，任何市场影响都将“仅限于温和的膝跳式卖出日元”。</a> [18] <font color='grey'>- 11时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">5.0%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077670" target="_blank" class="news-link">A股异动丨海外需求爆发式增长，储能概念股逆势走强，海博思创涨近10%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646994_0_1" target="_blank" class="news-link">【行情】现货黄金短线大幅反弹逾15美元，现报3530.29美元/盎司。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646979_100_1" target="_blank" class="news-link">【行情】现货黄金下跌1%至3510.29美元/盎司。</a> [12] <font color='grey'>- 11时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">3.33%</td>
+                    <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1157014" target="_blank" class="news-link">分享一个小工具： AI 自动生成 TikTok 评论截图，用于运营/社媒配图</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时43分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646981_101_1" target="_blank" class="news-link">Coinbase加速拥抱Ai：目标10月前实现每日超50%代码由Ai生成</a> [10 - 30] <font color='grey'>- 11时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646986_101_1" target="_blank" class="news-link">特斯拉：Robotaxi应用现已向公众开放。</a> [8 - 28] <font color='grey'>- 11时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2135043" target="_blank" class="news-link">拳打英伟达、脚踢苹果？谷歌被曝加码推销自研芯片 AI助手也有进展</a> [13] <font color='grey'>- 11时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">chatgpt Sam Altman openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3646963_101_1" target="_blank" class="news-link">美国总统特朗普周四将与美国科技界领袖共进晚餐，包括Meta的扎克伯格、苹果的库克和Openai的Altman。</a> [17] <font color='grey'>- 11时43分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">能源 核能 大基建 新基建</td>
+                    <td class="count">1</td>
+                    <td class="percentage">1.67%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5077662" target="_blank" class="news-link">锂电排产爆单+固态电池技术突破，新能源连续两天爆了！</a> [11] <font color='grey'>- 11时43分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
