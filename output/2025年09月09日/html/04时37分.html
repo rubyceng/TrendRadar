@@ -1,0 +1,143 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 31</p><p>生成时间: 2025-09-09 04:37:47</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">3</td>
+                    <td class="percentage">9.68%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45138695" target="_blank" class="news-link">The key points of &quot;Working Effectively with Legacy Code&quot;</a> [9] <font color='grey'>- 04时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45167394" target="_blank" class="news-link">A critique of package managers</a> [18] <font color='grey'>- 04时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45167459" target="_blank" class="news-link">Writing code is easy, reading it isn&#x27;t</a> [26] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45166750" target="_blank" class="news-link">How RSS beat Microsoft</a> [6] <font color='grey'>- 04时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45172609" target="_blank" class="news-link">Microsoft doubles down on small modular reactors and fusion energy</a> [23] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3653515_0_1" target="_blank" class="news-link">美国银行预测投资银行费用增长和消费者财务状况稳定</a> [12] <font color='grey'>- 04时37分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3653514_101_1" target="_blank" class="news-link">美国7月农业贸易逆差扩大至49.7亿美元，1-7月累计贸易赤字336亿美元——创历史新高。</a> [13] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">6.45%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3653563_101_1" target="_blank" class="news-link">戴尔科技Cfo Yvonne Mcgill将离职。</a> <font color='red'><strong>[1 - 21]</strong></font> <font color='grey'>- 04时37分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3653559_101_1" target="_blank" class="news-link">【行情】标普500指数收涨13.65点，涨幅0.21%，报6495.15点。道琼斯工业平均指数收涨114.09点，涨幅0.25%，报45514.95点。纳斯达克综合指数（纳指）收涨98.311点，涨幅0.45%，报21798.699点。纳斯达克100指数收涨109.857点，涨幅0.46%，报23762.30点。纳斯达克生物科技指数收跌0.94%，报4799.99点。费城半导体指数收涨0.84%，报5809.611点。费城证交所Kbw银行指数收跌0.03%，报148.43点。</a> <font color='red'><strong>[2 - 22]</strong></font> <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">小米 雷军 xiaomi</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3653525_101_1" target="_blank" class="news-link">【行情】纳斯达克金龙中国指数初步收涨2.1%。热门中概股里，网易初步收涨7.2%，百度涨6.5%，京东涨4.4%，阿里巴巴涨4.1%，小鹏涨4%，蔚来涨3.6%，小米和腾讯涨约2%，百胜中国则跌1.2%。此外，叁腾科技涨250%，36氪涨92%，房多多涨52%，森淼科技和比特起源涨超20%，瑞图生态涨18%，品钛涨15%，思宏国际涨13%。</a> [8 - 28] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45168854" target="_blank" class="news-link">AMD claims Arm ISA doesn&#x27;t offer efficiency advantage over x86</a> [22] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45171200" target="_blank" class="news-link">iPhone dumbphone</a> [8] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://news.ycombinator.com/item?id=45167625" target="_blank" class="news-link">AI might yet follow the path of previous technological revolutions</a> [19] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">3.23%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3653519_0_1" target="_blank" class="news-link">Blink Charging完成波特维尔电动汽车充电项目并扩大在英国的业务</a> [10 - 30] <font color='grey'>- 04时37分</font></div></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
