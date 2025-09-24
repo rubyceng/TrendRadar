@@ -1,0 +1,170 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 258</p><p>生成时间: 2025-09-24 19:33:35</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">17</td>
+                    <td class="percentage">6.59%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2154306" target="_blank" class="news-link">阿里吴泳铭：正在推进三年3800亿AI基建计划，并将会追加更大的投入</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时33分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%91%A8%E9%B8%BF%E7%A5%8E%E7%BD%97%E6%B0%B8%E6%B5%A9%E6%8A%8AAI%E8%81%8A%E9%80%8F%E4%BA%86" target="_blank" class="news-link">周鸿祎罗永浩把AI聊透了</a> [6] <font color='grey'>- 19时33分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1161578" target="_blank" class="news-link">利用 AI 进行 UI 测试目前有什么好用的方案吗</a> [7] <font color='grey'>- 19时33分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1161283" target="_blank" class="news-link">做了一个 AI 问卷情感探索小程序，还没上架，兄弟们有时间赏脸给点意见呗</a> [8] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45304980" target="_blank" class="news-link">Markov chains are the original language models</a> [9] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45358433" target="_blank" class="news-link">My game&#x27;s server is blocked in Spain whenever there&#x27;s a football match on</a> [10] <font color='grey'>- 19时33分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7553165143376134195" target="_blank" class="news-link">历经4个月，基于 Tiptap 和 NestJs 打造一款 AI 驱动的智能文档协作平台 🚀🚀🚀</a> [10] <font color='grey'>- 19时33分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1161558" target="_blank" class="news-link">Nano Banana AI Image Generator For Free</a> [11] <font color='grey'>- 19时33分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7552824412115451955" target="_blank" class="news-link">前端转 AI 开发：我要用 Nodejs 开发一个 AI Agent 智能面试官，优化简历，模拟面试</a> [11] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45347532" target="_blank" class="news-link">Getting AI to work in complex codebases</a> [13] <font color='grey'>- 19时33分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7552780652791676937" target="_blank" class="news-link">一台8核CPU，我将“小作坊”的Feed流AI推荐月成本，从1.8万打到了600块</a> [16] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45356226" target="_blank" class="news-link">Greatest irony of the AI age: Humans hired to clean AI slop</a> [20] <font color='grey'>- 19时33分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7551997631113199626" target="_blank" class="news-link">AI Coding技巧与心得</a> [21] <font color='grey'>- 19时33分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1161478" target="_blank" class="news-link">一个极简的 AI 翻译工具，支持自定义 API 服务商与 prompt</a> [23] <font color='grey'>- 19时33分</font><br>[少数派] <a href="https://sspai.com/post/101981" target="_blank" class="news-link">先学会骑车，再在 AI 的帮助下写个骑行记录 App</a> [24] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45347914" target="_blank" class="news-link">Launch HN: Strata (YC X25) – One MCP server for AI to handle thousands of tools</a> [27] <font color='grey'>- 19时33分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1161457" target="_blank" class="news-link">历经 4 个月，基于 Tiptap 和 NestJs 打造一款 AI 驱动的智能文档协作平台</a> [27] <font color='grey'>- 19时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">程序员 IT</td>
+                    <td class="count">13</td>
+                    <td class="percentage">5.04%</td>
+                    <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1161600" target="_blank" class="news-link">v 站程序员巨多， 你觉得你是力工思维吗</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45355965" target="_blank" class="news-link">New study shows plants and animals emit a visible light that expires at death</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时33分</font><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3679332_100_1" target="_blank" class="news-link">【行情】Standard Lithium上涨5.2%，Sigma Lithium上涨5.1%。</a> <font color='red'><strong>[5 - 25]</strong></font> <font color='grey'>- 19时33分</font></div><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45356958" target="_blank" class="news-link">You didn&#x27;t see it coming</a> [7] <font color='grey'>- 19时33分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7552827123933839414" target="_blank" class="news-link">⚡️⚡️⚡️ 好消息，尤雨溪宣布即将发布 Vite 8 版本！完全由 Rolldown 提供支持🚀🚀🚀</a> [7] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45314752" target="_blank" class="news-link">Deep researcher with test-time diffusion</a> [8] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45352944" target="_blank" class="news-link">From Rust to reality: The hidden journey of fetch_max</a> [14] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45329080" target="_blank" class="news-link">Building a better online editor for TypeScript</a> [17] <font color='grey'>- 19时33分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7552350929199906855" target="_blank" class="news-link">⚡ GitHub 热榜速报 | 2025 年 09 月 第 3 周</a> [20] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45348495" target="_blank" class="news-link">Always Invite Anna</a> [24] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45354689" target="_blank" class="news-link">Periodic Table of Cognition</a> [29] <font color='grey'>- 19时33分</font><br>[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45345950" target="_blank" class="news-link">Mesh: I tried Htmx, then ditched it</a> [30] <font color='grey'>- 19时33分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1161446" target="_blank" class="news-link">做了一个英语警句小程序 -- QuoteIt</a> [30] <font color='grey'>- 19时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">苹果 库克 iphone ipad mac ios</td>
+                    <td class="count">11</td>
+                    <td class="percentage">4.26%</td>
+                    <td class="titles">[稀土掘金] <a href="https://juejin.cn/post/7552402306222882842" target="_blank" class="news-link">🍏让前端去做 iPhone 的液态玻璃❓</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时33分</font><br>[少数派] <a href="https://sspai.com/post/102583" target="_blank" class="news-link">具透 | 新形象、续写 Mac 经典，macOS Tahoe 26 中的亮点功能</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时33分</font><br>[少数派] <a href="https://sspai.com/post/102372" target="_blank" class="news-link">具透 | 新面貌、上手更奇妙，iOS 26 中值得关注的新特性</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时33分</font><br>[少数派] <a href="https://sspai.com/post/102432" target="_blank" class="news-link">iPhone 17 系列发布会上没说的那些事</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时33分</font><br>[少数派] <a href="https://sspai.com/post/102413" target="_blank" class="news-link">最轻的 iPhone 亮相，还有这些惊喜：Apple 发布会看点回顾</a> [6] <font color='grey'>- 19时33分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1161550" target="_blank" class="news-link">windows rdp 60hz， mac 客户端不生效</a> [12] <font color='grey'>- 19时33分</font><br>[少数派] <a href="https://sspai.com/post/102214" target="_blank" class="news-link">App+1｜无需跳转、深度集成，沉浸式 iOS 翻译工具：Para 翻译</a> [16] <font color='grey'>- 19时33分</font><br>[少数派] <a href="https://sspai.com/post/102244" target="_blank" class="news-link">Apple 发布会前瞻：全新设计、超薄机型…… 新 iPhone 还有哪些看点？</a> [17] <font color='grey'>- 19时33分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7552584517866897458" target="_blank" class="news-link">vue3封装仿macOs的液态玻璃组件</a> [23] <font color='grey'>- 19时33分</font><br>[少数派] <a href="https://sspai.com/post/102160" target="_blank" class="news-link">用 Mac 打造智能化餐厅，这是海底捞给出的答案</a> [28] <font color='grey'>- 19时33分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1161456" target="_blank" class="news-link">[送码] ByePhotos: iOS 相册整理 App iOS26 适配</a> [28] <font color='grey'>- 19时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">10</td>
+                    <td class="percentage">3.88%</td>
+                    <td class="titles">[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2453134.html" target="_blank" class="news-link">中国象棋反腐第一案：六名特级大师被判刑</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时33分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2453133.html" target="_blank" class="news-link">中国多部门发布政策措施支持服务出口：促进和规范数据跨境流动</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时33分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202509/2453132.html" target="_blank" class="news-link">台限制向南非出口晶片 中国大陆外交部称不会有实质影响</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时33分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2453131.html" target="_blank" class="news-link">中国世贸谈判不再寻求特殊待遇 中国外交部：彰显大国担当</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时33分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202509/2453127.html" target="_blank" class="news-link">中国国家能源局局长承诺整治光伏产业“内卷式”竞争</a> [8] <font color='grey'>- 19时33分</font><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3679318_100_1" target="_blank" class="news-link">中国巨石：拟以不超过8.8亿元回购公司股份，占总股本0.75-1.00%。</a> [9 - 29] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5088879" target="_blank" class="news-link">中国电建(601669.SH)：公司副董事长兼总经理王斌退休离任</a> [11] <font color='grey'>- 19时33分</font></div><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/2453120.html" target="_blank" class="news-link">“桦加沙”是史上最强台风？中国官方平台辟谣</a> [15] <font color='grey'>- 19时33分</font><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3679285_100_1" target="_blank" class="news-link">中国电建：公司副董事长兼总经理王斌退休离任。</a> [17] <font color='grey'>- 19时33分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9B%BD%E5%A4%96%E9%A1%B6%E5%A5%A2%E9%A3%9F%E6%9D%90%E4%B8%BA%E4%BD%95%E5%9C%A8%E4%B8%AD%E5%9B%BD%E4%B8%8D%E8%B4%B5%E4%BA%86" target="_blank" class="news-link">国外顶奢食材为何在中国不贵了</a> [30] <font color='grey'>- 19时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">美国 日本 越南 欧洲</td>
+                    <td class="count">9</td>
+                    <td class="percentage">3.49%</td>
+                    <td class="titles"><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3679331_100_1" target="_blank" class="news-link">【行情】全球锂供应商巨头Albemarle上涨4.5%，在美国上市的智利化工企业SQM上涨2.8%。</a> [6 - 26] <font color='grey'>- 19时33分</font></div><br>[少数派] <a href="https://sspai.com/post/102173" target="_blank" class="news-link">日本浮生录 09：睡魔花灯列阵，穿越夏夜青森</a> [8] <font color='grey'>- 19时33分</font><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3679303_101_1" target="_blank" class="news-link">美国9月19日当周Mba抵押贷款申请活动指数周环比0.6%，前值29.7%。</a> [10 - 30] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3679300_100_1" target="_blank" class="news-link">美国抵押贷款银行家协会：截至9月19日当周，美国30年期平均抵押贷款利率下降5个基点至6.34%，为2024年9月以来最低。</a> [12] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3679299_100_1" target="_blank" class="news-link">美国抵押贷款银行家协会：截至9月19日当周，美国抵押贷款再融资指数上涨0.8%至1609.8。</a> [13] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3679295_100_1" target="_blank" class="news-link">美国抵押贷款银行家协会：截至9月19日当周，美国抵押贷款购买指数上升0.3%至174.5。</a> [14] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [法布财经] <a href="https://www.fastbull.com/cn/fastshort/3679293_100_1" target="_blank" class="news-link">美国抵押贷款银行家协会：截至9月19日当周，美国抵押贷款市场指数上涨0.6%至388.3。</a> [15] <font color='grey'>- 19时33分</font></div><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/2453109.html" target="_blank" class="news-link">伊朗最高领袖：与美国谈判是“死胡同”</a> [24] <font color='grey'>- 19时33分</font><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E8%AD%A6%E5%91%8A%E4%BB%A5%E8%89%B2%E5%88%97%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26flag%3D1%26band_rank%3D25%26cate%3D5001%26pos%3D26%26dgr%3D0%26realpos%3D25%26stream_entry_id%3D31%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E8%25AD%25A6%25E5%2591%258A%25E4%25BB%25A5%25E8%2589%25B2%25E5%2588%2597%2523%26filter_type%3Drealtimehot%26lcate%3D5001%26display_time%3D1758713215%26pre_seqid%3D17587132150680166132114" target="_blank" class="news-link">日本警告以色列</a> [25] <font color='grey'>- 19时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">金融 A股 美股 纳斯达克 道琼斯 标普 黄金 电力 ETF AI板块 恒生科技</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.55%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=A%E8%82%A1%E9%80%BC%E7%A9%BA%E4%B8%8A%E6%B6%A8%E8%B6%854000%E8%82%A1" target="_blank" class="news-link">A股逼空上涨超4000股</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时33分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2154337" target="_blank" class="news-link">董承非等投资大佬热议：A股慢牛还是过热？ 宁泉：即便有“登味”也要保持谨慎</a> [6] <font color='grey'>- 19时33分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2154267" target="_blank" class="news-link">美股重夺全球“最昂贵”股市桂冠：估值之巅会是危墙之下吗？</a> [12] <font color='grey'>- 19时33分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=A%E8%82%A1924%E6%96%B0%E6%94%BF%E4%B8%80%E5%91%A8%E5%B9%B4" target="_blank" class="news-link">A股924新政一周年</a> [18] <font color='grey'>- 19时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">科技</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.16%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2154786" target="_blank" class="news-link">【数据看盘】北方华创龙虎榜现多空博弈 外资、机构甩卖2连板长川科技</a> [8] <font color='grey'>- 19时33分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202509/2453122.html" target="_blank" class="news-link">吉林省援藏干部曲玉祥跨省份履新青海省科技厅厅长</a> [13] <font color='grey'>- 19时33分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E7%9C%8B%E7%A7%91%E6%8A%80%E4%B8%BB%E7%BA%BF%E9%A2%86%E8%B7%91A%E8%82%A1" target="_blank" class="news-link">如何看科技主线领跑A股</a> [19] <font color='grey'>- 19时33分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">小米 雷军 xiaomi</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2154276" target="_blank" class="news-link">雷军：同时决定造车和重启造芯 押上小米全部家底</a> [7] <font color='grey'>- 19时33分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7552041099173756980" target="_blank" class="news-link">金山还是小米，谁才是雷军的亲儿子？附小米线下一面面经（八股盛宴）</a> [30] <font color='grey'>- 19时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">芯片 光刻机</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2154658" target="_blank" class="news-link">【每日收评】创业板指涨超2%再创3年多新高，全市场超4400股飘红，半导体芯片产业链持续火爆</a> [9] <font color='grey'>- 19时33分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2154749" target="_blank" class="news-link">【焦点复盘】科创50一度涨逾5%创近4年新高，全市场超百股涨逾10%，涨价利好持续引爆芯片股</a> [13] <font color='grey'>- 19时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA AMD</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://news.ycombinator.com/item?id=45319791" target="_blank" class="news-link">Processing Strings 109x Faster Than Nvidia on H100</a> [22] <font color='grey'>- 19时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[稀土掘金] <a href="https://juejin.cn/post/7551973167378137128" target="_blank" class="news-link">GitHub Copilot突发巨变！Claude模型神秘消失，国内开发者集体炸锅</a> [29] <font color='grey'>- 19时33分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">能源 核能 大基建 新基建</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5088889" target="_blank" class="news-link">东华能源(002221.SZ)：马森张家港累计增持0.34%股份</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时33分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 14 条)</h3>
+            <h4>格隆汇 (2 条)</h4><ul><li><a href="https://www.gelonghui.com/news/5088889" target="_blank" class="news-link">东华能源(002221.SZ)：马森张家港累计增持0.34%股份</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://www.gelonghui.com/news/5088879" target="_blank" class="news-link">中国电建(601669.SH)：公司副董事长兼总经理王斌退休离任</a> [11]</li></ul><h4>法布财经 (9 条)</h4><ul><li><a href="https://www.fastbull.com/cn/fastshort/3679332_100_1" target="_blank" class="news-link">【行情】Standard Lithium上涨5.2%，Sigma Lithium上涨5.1%。</a> <font color='red'><strong>[5]</strong></font></li><li><a href="https://www.fastbull.com/cn/fastshort/3679331_100_1" target="_blank" class="news-link">【行情】全球锂供应商巨头Albemarle上涨4.5%，在美国上市的智利化工企业SQM上涨2.8%。</a> [6]</li><li><a href="https://www.fastbull.com/cn/fastshort/3679318_100_1" target="_blank" class="news-link">中国巨石：拟以不超过8.8亿元回购公司股份，占总股本0.75-1.00%。</a> [9]</li><li><a href="https://www.fastbull.com/cn/fastshort/3679303_101_1" target="_blank" class="news-link">美国9月19日当周Mba抵押贷款申请活动指数周环比0.6%，前值29.7%。</a> [10]</li><li><a href="https://www.fastbull.com/cn/fastshort/3679300_100_1" target="_blank" class="news-link">美国抵押贷款银行家协会：截至9月19日当周，美国30年期平均抵押贷款利率下降5个基点至6.34%，为2024年9月以来最低。</a> [12]</li><li><a href="https://www.fastbull.com/cn/fastshort/3679299_100_1" target="_blank" class="news-link">美国抵押贷款银行家协会：截至9月19日当周，美国抵押贷款再融资指数上涨0.8%至1609.8。</a> [13]</li><li><a href="https://www.fastbull.com/cn/fastshort/3679295_100_1" target="_blank" class="news-link">美国抵押贷款银行家协会：截至9月19日当周，美国抵押贷款购买指数上升0.3%至174.5。</a> [14]</li><li><a href="https://www.fastbull.com/cn/fastshort/3679293_100_1" target="_blank" class="news-link">美国抵押贷款银行家协会：截至9月19日当周，美国抵押贷款市场指数上涨0.6%至388.3。</a> [15]</li><li><a href="https://www.fastbull.com/cn/fastshort/3679285_100_1" target="_blank" class="news-link">中国电建：公司副董事长兼总经理王斌退休离任。</a> [17]</li></ul><h4>微博 (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E8%AD%A6%E5%91%8A%E4%BB%A5%E8%89%B2%E5%88%97%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26flag%3D1%26band_rank%3D25%26cate%3D5001%26pos%3D26%26dgr%3D0%26realpos%3D25%26stream_entry_id%3D31%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E8%25AD%25A6%25E5%2591%258A%25E4%25BB%25A5%25E8%2589%25B2%25E5%2588%2597%2523%26filter_type%3Drealtimehot%26lcate%3D5001%26display_time%3D1758713215%26pre_seqid%3D17587132150680166132114" target="_blank" class="news-link">日本警告以色列</a> [25]</li></ul><h4>bilibili 热搜 (2 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=A%E8%82%A1924%E6%96%B0%E6%94%BF%E4%B8%80%E5%91%A8%E5%B9%B4" target="_blank" class="news-link">A股924新政一周年</a> [18]</li><li><a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E7%9C%8B%E7%A7%91%E6%8A%80%E4%B8%BB%E7%BA%BF%E9%A2%86%E8%B7%91A%E8%82%A1" target="_blank" class="news-link">如何看科技主线领跑A股</a> [19]</li></ul></div>
+        </body>
+        </html>
+        
